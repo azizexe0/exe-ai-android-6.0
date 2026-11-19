@@ -25,3 +25,14 @@ dependencies {
     implementation 'com.google.mlkit:text-recognition:16.0.1'
     implementation 'org.jsoup:jsoup:1.18.3'
 }
+
+// Kotlin sürüm çakışmasını düzelt
+configurations.configureEach {
+    resolutionStrategy.force(
+        'org.jetbrains.kotlin:kotlin-stdlib:1.8.22',
+        'org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22',
+        'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22',
+        'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+    )
+}
+    
