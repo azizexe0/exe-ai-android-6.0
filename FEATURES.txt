@@ -1,0 +1,25 @@
+EXE AI 6.0
+
+KORUNAN 5.0 OZELLIKLERI
+- Yazili sohbet, Android sesli giris ve Android TTS
+- Kamera fotografi / galeri secimi ve ML Kit OCR
+- SQLite kalici hafiza ve TSV soru-cevap ice aktarma
+- Wikipedia tabanli onceki ogrenme komutu (*** konu / ### konu)
+- Yaklasik eslesmeyle kurulu uygulama acma
+- Wi-Fi / Bluetooth ayarlari kisayollari
+- GitHub Actions APK derleme akisi
+
+6.0 YENILIKLERI
+- Bilinmeyen sorularda otomatik web arastirmasi
+- DuckDuckGo HTML ve Bing RSS arama kaynaklari
+- Ulasilabilen web sayfalarindan metin cikarma
+- Arastirma cevaplarini SQLite learned tablosuna kaynaklariyla kaydetme
+- Arastirma oncesi bazi Turkce kisaltma/yazim duzeltmeleri
+- Surum kodu 60, surum adi 6.0
+
+SINIRLAR
+- Gercek ChatGPT modeli veya API'siz ChatGPT erisimi yoktur. Bu surum web arama ve sayfa metni cikarma yapar.
+- Her web sitesine erisim garanti degildir.
+- Android guc tusu uc kez basma olayini normal uygulamalara genel olarak sunmaz; hizli global panel bu pakette yoktur.
+- Surekli mikrofon dinleme ve kilit ekrani asistani bu pakette yoktur.
+- WhatsApp mesajlari kullanici onayi olmadan gonderilmez.
